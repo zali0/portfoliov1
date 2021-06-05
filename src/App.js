@@ -1,5 +1,7 @@
 import './App.css';
+import About from './components/About';
 import Navbar from './components/Navbar';
+import Projects from './components/Projects';
 import Sky from './components/Sky';
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
       <div>
           <Sky />
           <Navbar />
+          <About />
+          <Projects />
       </div>
     </div>
   );

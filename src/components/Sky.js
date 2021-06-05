@@ -199,8 +199,8 @@ class Sky extends Component {
     return (
       <div className="sky">
         <div className="sky__text">
-          <p>Hey there! I'm <strong>Zeeshan Ali</strong>.</p>
-          <p>I'm a full-stack web developer.</p>
+          <p>Hey there! I'm <strong className="name">Zeeshan Ali</strong>.</p>
+          <p>A full-stack web developer.</p>
           {/* <div className="frame">
             <button className="custom-btn btn-12">
               <span>Click!</span>

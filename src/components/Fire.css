@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 
-svg {
+.fire svg {
   position: absolute;
   top: -4000px;
   left: -4000px;
