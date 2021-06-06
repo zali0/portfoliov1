@@ -18,24 +18,36 @@ export default class Footer extends Component {
           className="backward"
           onClick={() => scroll.scrollToTop()}
         />
-        <div class="button-block">
-          <div class="social">
-            <a href="https://www.instagram.com/zeesh_._/">
+        <div className="button-block">
+          <div className="social">
+            <a
+              href="https://www.instagram.com/zeesh_._/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <InstagramIcon className="fi" />
             </a>
           </div>
-          <div class="social">
-            <a href="#">
+          <div className="social">
+            <a
+              href="https://www.linkedin.com/in/zeeshan-ali-3b5532187/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <LinkedInIcon className="fi" />
             </a>
           </div>
-          <div class="social">
-            <a href="https://github.com/zali0">
+          <div className="social">
+            <a href="https://github.com/zali0" rel="noreferrer" target="_blank">
               <GitHubIcon className="fi" />
             </a>
           </div>
-          <div class="social">
-            <a href="#">
+          <div className="social">
+            <a
+              href="https://wa.me/919059350241"
+              rel="noreferrer"
+              target="_blank"
+            >
               {" "}
               <WhatsAppIcon className="fi" />
             </a>

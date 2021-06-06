@@ -8,6 +8,7 @@ import {
   faTachometerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import "./About.css";
+import { Link } from "react-scroll";
 export default class About extends Component {
   render() {
     return (
@@ -61,14 +62,24 @@ export default class About extends Component {
           <div className="info1">
             <p className="info1__question">Who am I?</p>
             <p className="info1__answer">
-              I'm a Full-Stack Web Developer in <span style={{color: "#04c2c9"}}>Hyderabad, India</span>. I have serious
-              passion for UI effects, animations and creating intuitive, dynamic
-              user experiences.
+              I'm a Full-Stack Web Developer in{" "}
+              <span style={{ color: "#04c2c9" }}>Hyderabad, India</span>. I have
+              serious passion for UI effects, animations and creating intuitive,
+              dynamic user experiences.
             </p>
-            <p className="info1__contact">Let's make something special.</p>
+            <Link
+              spy={true}
+              activeClass="active"
+              to="contact"
+              smooth={true}
+              duration={1000}
+              className="info1__contact"
+            >
+              Let's make something special.
+            </Link>
           </div>
           <div className="info2">
-          <p className="info2__title">Skills</p>
+            <p className="info2__title">Skills</p>
             <div>HTML</div>
             <div>CSS</div>
             <div>Javascript</div>

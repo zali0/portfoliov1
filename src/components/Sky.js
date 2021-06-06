@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Fire from './Fire';
 import "./Sky.css";
 class Sky extends Component {
   componentDidMount() {
@@ -207,7 +206,6 @@ class Sky extends Component {
               <span>View my Work!</span>
             </button>
           </div> */}
-          <Fire />
         </div>
         <canvas className="canvas"></canvas>
       </div>

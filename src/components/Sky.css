@@ -21,7 +21,7 @@
   width: max-content;
   position: absolute;
   left: 50%;
-  margin-left: -190px;
+  margin-left: -180px;
   top: 50%;
   margin-top: -50px;
 }
@@ -31,4 +31,60 @@
 }
 .name {
   color: #db1b6a;
+}
+
+@media screen and (max-width: 600px) {
+  .sky__text {
+    height: 100px;
+    width: max-content;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: -50px;
+  }
+  .sky__text p {
+    font-size: 1em;
+  }
+  .fire {
+    top: 60%;
+    left: 35%;
+  }
+  .navbar ul li {
+    margin-left: 10px;
+    list-style: none;
+  }
+  .skills {
+    flex-wrap: wrap;
+  }
+  .info {
+    flex-wrap: wrap;
+  }
+  .info1__answer {
+    width: 90%;
+    font-size: 0.8em;
+  }
+  .back {
+    top:-80px;
+    left: 0px;
+  }
+  .form__area p {
+    font-size: 0.7em;
+  }
+  .button-block {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .project {
+    width: 100%;
+  }
+  .visitSite {
+    width: 100%;
+  }
+  .item {
+    width: 170px;
+  }
+  .footnote {
+    margin-top: 50px;
+  }
 }

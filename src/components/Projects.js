@@ -5,7 +5,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
 import Carousel from "react-material-ui-carousel";
-import { Paper, Button } from "@material-ui/core";
+import { Paper } from "@material-ui/core";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import inventoryzee__login from "../images/inventoryzee__login.bmp";
 import inventoryzee__register from "../images/inventoryzee__register.bmp";
@@ -79,7 +79,7 @@ export default class Projects extends Component {
                       inventoryZee provides analytics, tracking, and business
                       intelligence for companies to use on the go. A single page
                       React application implemented with Redux, hosted on
-                      Heroku. server written in Node and Express and Databse in
+                      Heroku. Server written in Node.js and Express.j. Databse in
                       PostgreSQL.
                     </p>
                   </div>
@@ -87,6 +87,7 @@ export default class Projects extends Component {
                   <div className="visitSite">
                     <a
                       href="https://inventoryzee.herokuapp.com"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       {" "}
@@ -138,7 +139,7 @@ export default class Projects extends Component {
 function Item(props) {
   return (
     <Paper>
-      <img src={props.item.image} />
+      <img src={props.item.image} alt={""} />
       <div style={{ padding: "20px" }}>
         <p style={{ fontWeight: "700" }}>{props.item.name}</p>
         <p>{props.item.description}</p>

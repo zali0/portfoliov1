@@ -24,17 +24,17 @@ function Fire() {
 
       <button id="gooey-button">
         View My Work
-        <span class="bubbles">
-          <span class="bubble"></span>
-          <span class="bubble"></span>
-          <span class="bubble"></span>
-          <span class="bubble"></span>
-          <span class="bubble"></span>
-          <span class="bubble"></span>
-          <span class="bubble"></span>
-          <span class="bubble"></span>
-          <span class="bubble"></span>
-          <span class="bubble"></span>
+        <span className="bubbles">
+          <span className="bubble"></span>
+          <span className="bubble"></span>
+          <span className="bubble"></span>
+          <span className="bubble"></span>
+          <span className="bubble"></span>
+          <span className="bubble"></span>
+          <span className="bubble"></span>
+          <span className="bubble"></span>
+          <span className="bubble"></span>
+          <span className="bubble"></span>
         </span>
       </button>
     </div>

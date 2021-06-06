@@ -1,85 +1,86 @@
 .heading {
-    margin-top: 40px;
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
+  margin-top: 40px;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
 }
 .underline {
-    margin: 0 auto;
-    margin-bottom:40px;
-    width: 40px;
-    height: 5px;
-    background-color: #000;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 40px;
+  height: 5px;
+  background-color: #000;
 }
 .skills {
-    display: flex;
-    text-align: center;
-    margin: 20px;
+  display: flex;
+  text-align: center;
+  margin: 20px;
 }
 .skills .skill {
-    margin: 10px;
-    width: 1500px;
+  margin: 10px;
+  width: 1500px;
 }
 .icon {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #04c2c9;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    width: 100px;
-    /* height:80px;  */
-    padding:20px;
-    /* width: max-content; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #04c2c9;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  width: 100px;
+  /* height:80px;  */
+  padding: 20px;
+  /* width: max-content; */
 }
 .title {
-    font-weight: bold;
-    margin-top: 10px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 .fa {
-    color: #fff;
+  color: #fff;
 }
 .details {
-    font-size: 0.7em;
-    margin-top: 10px;
-
+  font-size: 0.9em;
+  margin-top: 10px;
 }
 .info {
-    margin-top: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 .info1 {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    height: 100%;
+  /* width: 200px; */
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  height: 100%;
 }
 .info1__question {
-    font-weight: bold;;
-    font-size: 0.9em;
+  font-weight: bold;
+  font-size: 1.1em;
 }
 .info1__answer {
-    font-size: 0.7em;
+  font-size: 1em;
 }
 .info1__contact {
-    font-size: 0.7em;
-    color: #04c2c9;
+  font-size: 1em;
+  color: #04c2c9;
+  cursor: pointer;
 }
 .info2 {
-    width: 40%;
+  width: 300px;
+  padding: 10px;
 }
 .info2 div {
-    margin-top: 10px;
-    padding:5px;
-    width: max-content;
-    color: #fff;
-    background-color: #04c2c9;
+  margin-top: 10px;
+  padding: 5px;
+  width: max-content;
+  color: #fff;
+  background-color: #04c2c9;
 }
 .info2__title {
-    font-size:1.2em;
-    font-weight: bold;
+  font-size: 1.2em;
+  font-weight: bold;
 }

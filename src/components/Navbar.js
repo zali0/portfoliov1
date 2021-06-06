@@ -38,7 +38,6 @@ export class Navbar extends Component {
               to="portfolio"
               smooth={true}
               duration={1000}
-              href="#portfolio"
             >
               PORTFOLIO
             </Link>

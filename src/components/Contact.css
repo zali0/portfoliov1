@@ -30,7 +30,6 @@
   width: 50%;
   margin: 0 auto;
 }
-
 .form__area p {
   color: #04c2c9;
   text-align: center;
@@ -65,10 +64,16 @@
   border: 1px solid #04c2c9;
   background-color: #04c2c9;
 }
+.contact__info  {
+  text-align: center !important;
+  color: #fff !important;
+  text-decoration: none;;
+}
 
-.contact__info {
-    text-align: left !important;
+.contact__info a {
+    text-align: center !important;
     color: #fff !important;
+    text-decoration: none;;
 }
 .contact_info .highlight {
     color: #e31b6d !important;

@@ -1,15 +1,21 @@
-.fire {
+/* .fire {
   align-items: center;
-  /* background-color: #0c1016; */
   display: flex;
-  font-family: "Roboto";
-  /* font-size: 10px; */
   height: 100%;
   justify-content: center;
   margin: 0;
   padding: 0;
   cursor: pointer;
-  /* width: 100%; */
+  z-index: 1;
+} */
+
+.fire { 
+  /* height: 100vh; */
+  z-index: 11111;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  cursor: pointer;
 }
 
 * {
@@ -20,17 +26,28 @@
   position: absolute;
   top: -4000px;
   left: -4000px;
+  /* top:-50%;
+  left: -50%; */
 }
 
 #gooey-button {
+  /* position: absolute; */
+
+  cursor: pointer;
   padding: 0.5rem;
   font-size: 1rem;
   border: none;
-  color: #0c1016;
+  color: #ffffff;
   filter: url("#gooey");
   position: relative;
+  opacity: 0.9;
   background-color: #e25822;
   /* background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%); */
+}
+#gooey-button:hover {
+  color: #fff;
+  opacity:1;
+  text-decoration: none;
 }
 
 #gooey-button:focus {
