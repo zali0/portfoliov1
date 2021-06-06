@@ -4,13 +4,19 @@ import "./Contact.css";
 export default class Contact extends Component {
   render() {
     return (
-      <div className="contact">
+      <div className="contact" id="contact">
         <img src={Path} alt="" className="path" />
         <div className="form">
           <h3 className="heading">Contact</h3>
           <hr className="underline" />
           <div className="form__area">
             <p>Have a question or want to work together?</p>
+            <p className="contact__info">
+              Email: <span className="highlight">zali2592@gmail.com</span>
+            </p>
+            <p className="contact__info">
+              Phone No: <span className="highlight">+91 905 935 0241</span>
+            </p>
             <div className="inputs">
               <input className="input" type="text" placeholder="Name" />
               <input className="input" type="email" placeholder="Email" />

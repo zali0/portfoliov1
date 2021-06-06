@@ -197,7 +197,7 @@ class Sky extends Component {
   }
   render() {
     return (
-      <div className="sky">
+      <div className="sky" id="home">
         <div className="sky__text">
           <p>Hey there! I'm <strong className="name">Zeeshan Ali</strong>.</p>
           <p>A full-stack web developer.</p>

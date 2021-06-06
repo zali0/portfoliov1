@@ -51,7 +51,7 @@ export default class Projects extends Component {
       },
     ];
     return (
-      <div className="projects">
+      <div className="projects" id="portfolio">
         <h3 className="heading">PROJECTS</h3>
         <hr className="underline" />
         <Router>
@@ -139,8 +139,10 @@ function Item(props) {
   return (
     <Paper>
       <img src={props.item.image} />
-      <p style={{ fontWeight: "700" }}>{props.item.name}</p>
-      <p>{props.item.description}</p>
+      <div style={{ padding: "20px" }}>
+        <p style={{ fontWeight: "700" }}>{props.item.name}</p>
+        <p>{props.item.description}</p>
+      </div>
     </Paper>
   );
 }

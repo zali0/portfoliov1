@@ -65,3 +65,11 @@
   border: 1px solid #04c2c9;
   background-color: #04c2c9;
 }
+
+.contact__info {
+    text-align: left !important;
+    color: #fff !important;
+}
+.contact_info .highlight {
+    color: #e31b6d !important;
+}

@@ -67,6 +67,7 @@
   padding: 10px;
 }
 .project__name {
+  margin-bottom: 10px;
   font-weight: bold;
 }
 .project__logo {
@@ -89,7 +90,7 @@
   font-size: 0.9em;
 }
 .visitSite {
-  margin: 0 auto;
+  margin: 10px auto;
   background-color: #06161d;
   padding: 5px;
   width: 200px;
@@ -105,7 +106,7 @@
 
 .techs div {
   border-radius: 5px;
-  margin-left: 10px;
+  margin: 10px 10px;
   background-color: #e31b6d;
   color: #fff;
   padding: 5px;

@@ -2,6 +2,7 @@
   background: #1b242f;
   width: 100%;
   padding: 20px;
+  position: relative;
 }
 .button-block {
   width: 100%;
@@ -70,4 +71,14 @@
 .highlight {
     color: #e31b6d;
     font-family: "Open Sans";
+}
+.backward {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: rotate(90deg);
+    background-color: #e31b6d;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
 }
