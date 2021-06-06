@@ -1,0 +1,73 @@
+.footer {
+  background: #1b242f;
+  width: 100%;
+  padding: 20px;
+}
+.button-block {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social {
+  margin: 30px;
+  cursor: pointer;
+}
+.social a {
+  display: block;
+  background: rgba(0, 0, 0, 1);
+  padding: 8px;
+  position: relative;
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+.social a::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  left: -20px;
+  top: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  transform: rotate(0deg) skewY(-45deg);
+}
+.social a::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  transform: rotate(0deg) skewX(-45deg);
+  background: rgba(0, 0, 0, 0.7);
+  transform: rotate(45deg) scewY(-45deg);
+}
+.social a:hover {
+  transform: perspective(1000px) rotate(-30deg) skew(25deg)
+    translate(20px, -20px);
+  box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+}
+.social a i {
+  color: rgba(256, 256, 256, 1);
+  font-size: 30pt;
+}
+
+.fi {
+    color: #fff;
+    font-size: 1.2em;
+}
+.footnote {
+    color: #8f9aa7;
+    font-size: 10pt;
+    margin-top: 35px;
+    opacity: 0.6;
+    text-align: center;
+}
+.highlight {
+    color: #e31b6d;
+    font-family: "Open Sans";
+}

@@ -78,8 +78,6 @@ export default class About extends Component {
             <div>PostgreSQL</div>
             <div>Redux</div>
             <div>Invision Studio</div>
-
-
           </div>
         </div>
       </div>

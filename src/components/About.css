@@ -49,9 +49,14 @@
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    padding: 20px;
 }
 .info1 {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 100%;
 }
 .info1__question {
     font-weight: bold;;

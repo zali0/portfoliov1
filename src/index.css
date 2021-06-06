@@ -2,6 +2,15 @@
   margin:0px;
   padding: 0px;
 }
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #06161d;
+}
+
+::selection {
+  color: #fff;
+  background: #06161d;
+}
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
