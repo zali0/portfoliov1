@@ -16,8 +16,14 @@
   height: 5px;
   background-color: #000;
 }
+.items {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .item {
-  margin: 30px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   width: 300px;
