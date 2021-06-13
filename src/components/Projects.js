@@ -133,7 +133,7 @@ export default class Projects extends Component {
                     <FontAwesomeIcon icon={faArrowCircleLeft} size="3x" />
                   </Link>
                   <h3 className="project__name">Al Haqq Islamic Foundation</h3>
-                  <img className="project__logo" src={alhaqq__home} alt="" />
+                  {/* <img className="project__logo" src={alhaqq__home} alt="" /> */}
                   <Carousel className="project__images">
                     {alhaqq.map((item, i) => (
                       <Item key={i} item={item} />
